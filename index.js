@@ -17,6 +17,7 @@ document.addEventListener("keydown", function(event) {
   buttonAnimation(event.key.toLowerCase());
 });
 
+// make sound function
 function makesound(key) {
 
   switch (key) {
@@ -58,6 +59,7 @@ function makesound(key) {
 
 }
 
+//animation
 function buttonAnimation(currentKey) {
 
   var activeButton = document.querySelector("." + currentKey);
